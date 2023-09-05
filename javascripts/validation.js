@@ -25,11 +25,11 @@ window.onload = function () {
 };
 
 const app = new Vue({
-  el: '#app',
-  data: {
-    errorMessage: 'Correo electrónico no coincidente.',
+	el: "#app",
+	data: {
+		errorMessage: "Correo electrónico no coincidente.",
 		formData: {
-			name: '',
+			name: "",
 		},
-  }
-})
+	},
+});
